@@ -11,15 +11,14 @@
 			Elegant Calculator
 		</h1>
 		<form>
-			First Number: <input type="number" name="firstnumber" id="firstnumber" > <br> 
-			Second Number: <input type="number" name="secondnumber" id="secondnumber"> <br>
-
+			<span id="text1"> First Number: </span> <input type="number" name="firstnumber" id="firstnumber" > <br> 
+			<span id="text2"> Second Number:  </span> <input type="number" name="secondnumber" id="secondnumber"> <br>
 		</form>	
 
-		<button onclick="add()"> Add </button>
-		<button onclick="subtract()"> Subtract </button>
-		<button onclick="multiply()"> Multiply </button>
-		<button onclick="divide()"> Divide </button>
+		<button id = "add" class="button" onclick="add()"> Add </button>
+		<button id = "sub" class="button" onclick="subtract()"> Subtract </button>
+		<button id = "multiply" class="button" onclick="multiply()"> Multiply </button>
+		<button id = "divide" class="button" onclick="divide()"> Divide </button>
 
 		<p id="answer"> </p>
 
@@ -54,7 +53,7 @@
 			var n1 = parseFloat(document.getElementById("firstnumber").value);
 			var n2 = parseFloat(document.getElementById("secondnumber").value);
 			var final = n1 / n2;
-			document.getElementById("answer").innerHTML = "Answer is &nbsp" + final;	
+			document.getElementById("answer").innerHTML = "Answer is&nbsp"+final;	
 		}
 
 		</script>

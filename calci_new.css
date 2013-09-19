@@ -1,0 +1,93 @@
+h1	{
+	text-align:center;
+	color: #787878;
+	font-weight:bold;
+	font-size:350%;
+	font-family:Lucida Sans Unicode;
+	}
+
+#text1{
+	position:absolute;
+	top: 170px;
+	left: 320px;
+	color: #000000;
+	font-weight:bold;
+	font-size:200%;
+	font-family:Lucida Sans Unicode;
+	}
+
+#text2{
+	position:absolute;
+	top: 170px;
+	left: 710px;
+	color: #000000;
+	font-weight:bold;
+	font-size:200%;
+	font-family:Lucida Sans Unicode;
+	}	
+
+#firstnumber{
+	position:absolute;
+	top: 230px;
+	left: 320px;
+	width:200px;
+	height: 25px;
+	font-size:120%;
+}	
+
+#secondnumber{
+	position:absolute;
+	top: 230px;
+	left: 710px;
+	width:200px;
+	height: 25px;
+	font-size:120%;
+}	
+
+.button{
+	position:relative;
+		left: 180px;
+		top: 100px;
+		padding: 12px;
+		text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+		font-size: 200%;
+		-moz-border-radius:8px;
+        -webkit-border-radius:8px;
+        border-radius:10px;
+        color: #F0F8FF;
+        letter-spacing: 4px;
+        font-family:Lucida Sans Unicode;
+        border-style:none;
+        margin-top:30px;
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-bottom: 10px;
+}
+
+#add{
+	background: rgb(28, 184, 65);
+}
+
+
+#sub{
+	background: rgb(202, 60, 60);
+}
+
+#multiply{
+	background: rgb(223, 117, 20);
+}
+
+#divide{
+	background: rgb(66, 184, 221);
+}
+
+#answer{
+	position:relative;
+	top: 110px;
+	left: 450px;
+	color: #E2114A;
+	font-weight:bold;
+	font-size:400%;
+	font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+}
+
