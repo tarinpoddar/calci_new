@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Calculator </title>
+		<link rel="stylesheet" type="text/css" href="calci_new.css">
+		
+
+	</head>
+	<body>
+		<h1>
+			Elegant Calculator
+		</h1>
+		<form name="myform">
+			First Number: <input type="number" name="firstnumber" id="firstnumber" value="50"> <br> 
+			Second Number: <input type="number" name="secondnumber" id="secondnumber"> <br>
+			<input type="button" value="Add" id="add" >
+			<input type="button" value="Subtract" >
+			<input type="button" value="Multiply">
+			<input type="button" value="Divide">				
+		</form>	
+<!--
+		<script>
+			n1 = document.getElementById("n1").value;
+			document.write("<p>The number isssss " + n1.innerHTML + "</p>");
+		</script>
+-->
+
+		<script type="text/javascript">
+
+		var a = parseInt(document.getElementById("firstnumber").value);
+		document.write("<p>The number isssss " + a.value + "</p>");
+
+		</script>
+
+
+	</body>
+
+</html>
+
+
+
+
+<!-- 
+	<html>
+  <head>
+    <script type="text/javascript">
+      function submitTheForm() {
+        var input = document.getElementById('textfield');
+        //parseInt returns NaN if it fails to parse a number
+        if (isNaN(parseInt(input.value, 10)) === true)  {
+          // use regular expressions to do validation better
+          alert("Not valid!! You didn't type a number");
+        } else {
+          alert("Valid! You typed a number");
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <form name="myform" action="javascript:submitTheForm()">
+      <input id="textfield" name="Text" type="text" placeholder="Input only a number">
+      <input name="Submit"  type="submit" value="Update"/>
+    </form>
+  </body>
+</html>
+
+
+var button = document.getElementById("myButton");
+button.onclick = function(){
+
+-->
